@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const longitude = -3.179090; // Approximate longitude for Cardiff, South Wales
       const method = 2; // Example method number for calculation (Check the API for correct values)
   
-      const url = `http://api.aladhan.com/v1/calendar?latitude=${latitude}&longitude=${longitude}&method=${method}&month=${currentDate.getMonth() + 1}&year=${currentDate.getFullYear()}`;
+      const url = `https://api.aladhan.com/v1/calendar?latitude=${latitude}&longitude=${longitude}&method=${method}&month=${currentDate.getMonth() + 1}&year=${currentDate.getFullYear()}`;
   
       try {
         const response = await fetch(url);
