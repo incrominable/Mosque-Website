@@ -1,0 +1,62 @@
+.prayer-times {
+  font-family: 'Arial', sans-serif;
+  color: #495057;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.prayer-times-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.arrow-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #6c757d;
+}
+
+#title-pray {
+  text-align: center;
+}
+
+.prayer-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+
+.prayer-table th, .prayer-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.prayer-table th {
+  background-color: #f1f3f5;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.prayer-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.prayer-table tr:hover {
+  background-color: #e9ecef;
+}
+
+.date-display {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: #dee2e6;
+}
+
+.owl-carousel .item {
+    transition: transform 0.3s ease;
+    margin: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .owl-carousel .item:hover {
+    transform: scale(1.05); /* Enlarge item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for depth */
+  }
+  
+  .owl-carousel .item img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .owl-carousel .item h4 {
+    text-align: center;
+    margin-top: 8px;
+  }
+  
+
